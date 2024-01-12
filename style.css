@@ -1,0 +1,48 @@
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: blanchedalmond;
+    padding: 100px 300px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav >ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+}
+.brand{
+    margin-top: 50px;
+    text-align: center;
+
+}
+.brandWrite{
+    max-width: 600px;
+    margin: auto;
+
+}
+.brandWrite h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.brandWrite button{
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.brand img{
+    width: 100%;
+}
