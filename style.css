@@ -34,7 +34,7 @@ nav >ul{
     font-size: 40px;
     text-align: center;
 }
-.brandWrite button{
+.btnPrimary{
     background-color: orange;
     border: none;
     padding: 10px 20px;
@@ -46,6 +46,29 @@ nav >ul{
 .brand img{
     width: 100%;
 }
+
+
+main{
+    max-width: 1440px;
+    margin:0 auto;
+}
+.imgSection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    flex: 1;
+
+}
+.imgContent{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+}
+
 
 /* small screen */
 @media screen and (max-width:576px) {
