@@ -67,6 +67,7 @@ main{
 }
 .img{
     display: flex;
+    margin-left: 10px;
 }
 
 
@@ -80,6 +81,18 @@ main{
         gap: 10px;
         align-items: center;
     }
+    .img{
+        flex-direction: column;
+    }
+    .imgSection{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quick{
+    font-size:20px;
+    }
+    
+
 }
 
 /* table screen */
